@@ -33,7 +33,7 @@ public class LaunchingChromeTest {
 
      String title = driver.findElement(By.cssSelector(".example h2")).getText();;
 
-     assertThat(title, is("Secure Area not"));
+     assertThat(title, is("Secure Area"));
     }
     @After
     public void teardown(){

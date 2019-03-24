@@ -14,7 +14,7 @@ public class LaunchingChromeTest {
     @Before
     public void setup(){
 
-        String pathToChromeDriver = "C:\\Users\\ny\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe";
+        String pathToChromeDriver = "driver/newDriver/chromedriver";
 
         System.setProperty("webdriver.chrome.driver", pathToChromeDriver);
 
